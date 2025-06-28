@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📄 404: PDF Missing!</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      background-color: #fffbe6;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+    .pdf-icon {
+      font-size: 100px;
+    }
+    .joke {
+      font-size: 22px;
+      margin: 20px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 25px;
+      font-size: 20px;
+      background-color: #f44336;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .button:hover {
+      background-color: #c62828;
+    }
+  </style>
+</head>
+<body>
+  <div class="pdf-icon">📄❌</div>
+  <h1>Oops! PDF Not Found</h1>
+  <p class="joke">We searched high and low. Even asked Sherlock Holmes. Nothing.</p>
+  <p class="joke">Maybe it ran away to join the circus. Or eloped with a DOCX file 💔</p>
+  <a class="button" href="javascript:history.back()">🔙 Go Back & Pretend Nothing Happened</a>
+</body>
+</html>
